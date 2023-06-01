@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +46,7 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
-                <h1 class="m-0 text-primary">PunaIdeale</h1>
+                <h1 class="m-0 text-primary">Hyrja në punë</h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -55,17 +56,17 @@
                     <a href="index.html" class="nav-item nav-link">Ballina</a>
                     <a href="about.html" class="nav-item nav-link">Rreth ne</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Punët e hapura</a>
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Punët</a>
                         <div class="dropdown-menu rounded-0 m-0">
                             <a href="job-list.html" class="dropdown-item">Lista e punëve</a>
-                            <a href="job-detail.html" class="dropdown-item">Detajet</a>
+                            <a href="job-detail.html" class="dropdown-item active">Detajet e punës</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Faqet</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Faqet</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="category.html" class="dropdown-item">Kategoritë</a>
-                            <a href="testimonial.html" class="dropdown-item active">Rekomandimet</a>
+                            <a href="category.html" class="dropdown-item">Kotegoritë e punëve</a>
+                            <a href="testimonial.html" class="dropdown-item">Rekomandimet</a>
                             <a href="404.html" class="dropdown-item">404</a>
                         </div>
                     </div>
@@ -73,7 +74,7 @@
                     <a href="register.html"  class="nav-item nav-link" >Regjistrohu</a>
                     <a href="login.html" class="nav-item nav-link">Kyçu</a>
                 </div>
-                <a href="postjob.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Posto nje punë<i class="fa fa-arrow-right ms-3"></i></a>
+                <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Posto një punë<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
         <!-- Navbar End -->
@@ -82,12 +83,12 @@
         <!-- Header End -->
         <div class="container-xxl py-5 bg-dark page-header mb-5">
             <div class="container my-5 pt-5 pb-4">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Rekomandimet</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Detajet e punës</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb text-uppercase">
                         <li class="breadcrumb-item"><a href="#">Ballina</a></li>
                         <li class="breadcrumb-item"><a href="#">Faqet</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">Rekomandimet</li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Detajet e punës</li>
                     </ol>
                 </nav>
             </div>
@@ -95,59 +96,80 @@
         <!-- Header End -->
 
 
-        <!-- Testimonial Start -->
+        <!-- Job Detail Start -->
         <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
-                <h1 class="text-center mb-5">Cka thonë klientët tonë ?</h1>
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item bg-light rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Mundësi e mirë për të gjetur një vend pune . Qasje e lehtë dhe e shpejtë. Faleminderit !</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Denisa Gafurri</h5>
-                                <small>Biznismen</small>
+                <div class="row gy-5 gx-4">
+                    <div class="col-lg-8">
+                        <div class="d-flex align-items-center mb-5">
+                            <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-2.jpg" alt="" style="width: 80px; height: 80px;">
+                            <div class="text-start ps-4">
+                                <h3 class="mb-3">Menaxher i Marketingut</h3>
+                                <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Ferizaj, Kosovë</span>
+                                <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Kohë të plotë</span>
+                                <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>€900 - €1500</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Nuk kam fjalë të shprehi falenderime për këtë web-aplikacion . Përgëzime dhe ju lumtë krijuesve të tij</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Enis Gashi</h5>
-                                <small>Saldues metali</small>
-                            </div>
+
+                        <div class="mb-5">
+                            <h4 class="mb-3">Përshkrimi i punës</h4>
+                            <p>Ndihma në krijimin dhe organizimin e fushatave të menagjimit të marketingut, si promovime sezonale dhe ngjarje të grupeve të synuara, për t'u ofruar vizitorëve një përvojë unike në marketing.</p>
+                            <h4 class="mb-3">Përgjegjsitë</h4>
+                            <p>Kërkon/Kontakton subjekte në targetin e përcaktuar.
+                                Prezanton produktet tek klientët.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Të ketë përfunduar studimet e larta.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Të ketë aftësi shumë të mira komunikuese.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Të jetë i familjarizuar me tregun aktual.</li>
+                                <li><i class="fa fa-angle-right text-primary me-2"></i>Eksperienca të mëparshme në fushën e menaxhimit.</li>
+                            </ul>
+                        </div>
+        
+                        <div class="">
+                            <h4 class="mb-4">Apliko për këtë punë</h4>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Emri Juaj">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="email" class="form-control" placeholder="Emaili Juaj">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" class="form-control" placeholder="Portfolio Website">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="file" class="form-control bg-white">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="form-control" rows="5" placeholder="Letër motivuese"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100" type="submit">Apliko tani</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-light rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Jeta ime ndryshoi me gjetjën e një vendi të punës. Mirënjohës dhe faleminderit tërë jetën </p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Florent Hyseni</h5>
-                                <small>Arkitekt</small>
-                            </div>
+        
+                    <div class="col-lg-4">
+                        <div class="bg-light rounded p-5 mb-4 wow slideInUp" data-wow-delay="0.1s">
+                            <h4 class="mb-4">Përmbledhje</h4>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Publikuar në: 01 Qeshor, 2023</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Vend i lirë pune</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Natyra e punës: Punë e plotë</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Paga: €1500 - €2000</p>
+                            <p><i class="fa fa-angle-right text-primary me-2"></i>Ferizaj, Kosovë</p>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>Me anë të shfletimit të këtij webaplikacioni unë arrita të gjej një praktikë pune . Ju ftoj  ta përdorni këtë websit. Faleminderit .</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Drena Bytyqi</h5>
-                                <small>Dizajner grafik</small>
-                            </div>
+                        <div class="bg-light rounded p-5 wow slideInUp" data-wow-delay="0.1s">
+                            <h4 class="mb-4">Detajet e kompanisë</h4>
+                            <p class="m-0">International Hearts u themelua në vitin 2012 dhe ofron shërbime të marketingut dixhital të personalizuara për kompanitë zvicerane. Ekipi ynë është i vendosur në Zug dhe Prishtinë dhe përbëhet nga 20 punonjës të kualifikuar. Si një kompani partnere e Google, ne aktualisht mbështesim mbi 100 kompani, duke përfshirë liderët e tregut në industri të ndryshme, si dhe kompani të njohura ndërkombëtarisht si Philips, Beiersdorf dhe BMW.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- Job Detail End -->
 
 
         <!-- Footer Start -->
@@ -232,3 +254,4 @@
 </body>
 
 </html>
+
