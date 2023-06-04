@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posto nje pune</title>
+    <link rel="stylesheet" href="./css/postjob.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="overlay">
+       
+        <form style="margin-top: 10rem;">
+           <!--   con = Container  for items in the form-->
+           <div class="con">
+           <!--     Start  header Content  -->
+           <header class="head-form">
+              <h4 style="color:whitesmoke">Regjistrohuni për të postuar një punë</h4>
+              <!--     A welcome message or an explanation of the login form -->
+              <p>Jeni duke u regjistruar.. </p>
+           </header>
+           <!--     End  header Content  -->
+           <br>
+           <div class="field-set">
+             
+              <!--   user name -->
+                 <span class="input-item">
+                   <i class="fa fa-user-circle"></i>
+                 </span>
+                <!--   user name Input-->
+                 <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required >
+             
+              <br>
+             
+                   <!--   Password -->
+             
+              <span class="input-item">
+                <i class="fa fa-key"></i>
+               </span>
+              <!--   Password Input-->
+              <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required >
+             
+        <!--      Show/hide password  -->
+             <span>
+                <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+             </span>
+             
+             
+              <br>
+        <!--        buttons -->
+        <!--      button LogIn -->
+        <div class="employee1">
+              <a href="./success.html">Regjistrohuni </a>
+            </div>
+           </div>
+          
+        <!--   other buttons -->
+           <div class="other flex-column">
+        <!--      Forgot Password button-->
+        <div class="d-flex flex-column" >
+              <a href="./postjob.html" style="color:whitesmoke">Kthehuni prapa ?</a>
+            </div>
+            <!--     Sign Up button -->
+            <a href="./login.html" style="color:whitesmoke">Keni një llogari logohuni ?</a>
+        </div>
+        
+             
+        <!--   End Conrainer  -->
+          </div>
+          
+          <!-- End Form -->
+        </form>
+        </div>
+</body>
+</html>

@@ -80,3 +80,16 @@
 })(jQuery);
 
 
+
+
+// Get the elements
+var successMessageElement = document.getElementById("successMessage");
+var closeButtonElement = document.getElementById("closeButton");
+
+// Show the message
+successMessageElement.style.display = "block";
+
+// Close the message after 5 seconds
+setTimeout(function() {
+  successMessageElement.style.display = "none";
+}, 2000);
